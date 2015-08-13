@@ -1,0 +1,41 @@
+.mdc_video_div {
+  overflow: hidden;
+}
+.mdc_floatleft, .mdc_post_floatleft {
+	float: left;
+	overflow: hidden;
+}
+.mdc_floatright, .mdc_post_floatright {
+	overflow: hidden;
+}
+.mdc_videos_list li{
+	list-style: square
+}
+.mdc_video_div .mdc_floatright .mdc_video_title {
+  color: #900;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.mdc_post_video_title {
+  border-radius: 0;
+  padding: 0;
+}
+.entry-content .mdc_buttons{
+  background: #1ead21 none repeat scroll 0 0;
+  border: 1px solid #008800;
+  color: #fff;
+  transition: background 0.5s;
+}
+.entry-content .mdc_buttons:hover {
+  background: #fa600a none repeat scroll 0 0;
+  border: 1px solid #990000;
+  color: #fff;
+}
+.mdc_post_video_content {
+  overflow: hidden;
+}
+.mdc_hidden{
+  display: none;
+}

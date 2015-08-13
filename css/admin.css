@@ -1,0 +1,99 @@
+#poststuff .inside {
+  overflow: hidden;
+}
+.option_page_left {
+	float: left;
+	padding-right: 10px;
+	width: 770px;
+}
+.option_page_right {
+	float: right;
+	width: 280px;
+}
+#mdc_yt_opt_page .option_page_left .submit {
+  float: left;
+}
+.mdc_yt_dl_pro {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 4px -2px #666;
+  margin-bottom: 6px;
+  padding: 2px;
+}
+.mdc_yt_dl_pro_ttl {
+  color: #FF3992;
+  font-size: 17px !important;
+  text-shadow: 1px 1px 0px #000;
+}
+.upgrade_today {
+  letter-spacing: 1.7px;
+  text-decoration: underline;
+}
+.mdc_yt_dl_pro > h3 {
+  text-align: center;
+}
+.get_pro_btn {
+  background: #070 none repeat scroll 0 0;
+  border: 1px solid #090;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 6px;
+  padding: 2px 40px;
+  transition: background 0.5s ease 0s;
+}
+.get_pro_btn:hover {
+  background: #fa606a none repeat scroll 0 0;
+  border: 1px solid #009;
+ }
+.pro_logo {
+  margin: 0 auto;
+  width: 160px;
+}
+.pro_logo > img {
+  width: 100%;
+}
+.pro_feature {
+  overflow: hidden;
+}
+.pro_feature_ul > li {
+  color: #333;
+  margin: 0;
+}
+.get_pro_div {
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+}
+.mdc_logo {
+  width: 200px;
+}
+.mdc_help_icon {
+  color: #090;
+  cursor: pointer;
+}
+.option_page_left .yt_sm_icon {
+  height: 13px;
+  margin: 0 0 -2px;
+}
+.mdc_screenshot_toggle {
+  color: #999;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.mdc_screenshot_img {
+  border: 1px solid #ddd;
+}
+.mdc_plugin_support > label {
+  display: inline-block;
+  padding-left: 2px;
+  vertical-align: top;
+  width: 75px;
+}
+.mdc_plugin_support_input, .mdc_plugin_support_textarea {
+  width: 190px;
+}
+.row-actions span img {
+  height: 14px;
+  margin: 0 2px -2px 0;
+}
