@@ -1,41 +1,27 @@
-.mdc_video_div {
-  overflow: hidden;
+.hidden{
+    display: none;
 }
-.mdc_floatleft, .mdc_post_floatleft {
-	float: left;
-	overflow: hidden;
+.mdc_video_form_div {
+    margin-bottom: 4px;
 }
-.mdc_floatright, .mdc_post_floatright {
-	overflow: hidden;
+.mdc_video_output_div {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding: 2px 6px 0 6px;
 }
-.mdc_videos_list li{
-	list-style: square
+body div .mdc_video_output_div > p {
+    margin: 0;
 }
-.mdc_video_div .mdc_floatright .mdc_video_title {
-  color: #900;
-  font-size: 15px;
-  margin: 0;
-  text-align: center;
-  text-decoration: underline;
+.mdc_video_output_div > h3 {
+    font-size: 20px !important;
+    margin: 0 !important;
+    text-align: center;
 }
-.mdc_post_video_title {
-  border-radius: 0;
-  padding: 0;
+.thumb-showing {
+    float: left;
+    overflow: hidden;
 }
-.entry-content .mdc_buttons{
-  background: #1ead21 none repeat scroll 0 0;
-  border: 1px solid #008800;
-  color: #fff;
-  transition: background 0.5s;
-}
-.entry-content .mdc_buttons:hover {
-  background: #fa600a none repeat scroll 0 0;
-  border: 1px solid #990000;
-  color: #fff;
-}
-.mdc_post_video_content {
-  overflow: hidden;
-}
-.mdc_hidden{
-  display: none;
+div.mdc_video_wait_div > img {
+    width: 32px;
+    box-shadow: 0 0 0 #fff;
 }

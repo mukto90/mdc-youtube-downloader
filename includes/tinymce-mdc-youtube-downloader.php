@@ -38,4 +38,5 @@ class MDC_TinyMCE_buttons{
         return $buttons;
     }
 }
-$tiny = new MDC_TinyMCE_buttons;
+
+new MDC_TinyMCE_buttons;

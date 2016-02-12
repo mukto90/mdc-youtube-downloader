@@ -6,6 +6,7 @@ $(document).ready(function($) {
         $(".mdc_help", par).slideToggle();
     })
 
+    // toggle screenshot sample
     $(".mdc_screenshot_toggle").click(function(){
         var par = $(this).parent();
         $(".mdc_screenshot_img", par).slideToggle();
@@ -19,11 +20,5 @@ $(document).ready(function($) {
         else{
             $(".thumbnail_row").hide();
         }
-    })
-
-    // alter to say- you have to upgrade to pro
-    $("#mdc_toogle_mode").click(function(e){
-        alert('This Feature is Limited to Premium Version Only. Please Upgrade to Enjoy!');
-        e.preventDefault();
     })
 });

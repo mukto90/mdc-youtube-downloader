@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=-m1o4Y05NoY
 ### Demo
 Link: http://medhabi.com/items/mdc-youtube-downloader-pro/
 
-### Installatio
+### Installation
 
 1. Upload the `mdc-youtube-downloader` folder and its contents to your `wp-contents/plugins` directory.
 2. Activate in the `Plugins` menu.
@@ -24,6 +24,9 @@ Link: http://medhabi.com/items/mdc-youtube-downloader-pro/
 4. Add shortcode `[youtube_downloader_form]` in your post, page, widget on in a template file; if you wish! You can use YouTube icon to generate shortcode in TinyMCE editor.
 
 ### Changelog
+
+= 3.0.0 =
+* New version release with AJAX enabled.
 
 = 2.1.1 =
 * Bug fixed.

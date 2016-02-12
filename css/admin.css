@@ -21,9 +21,8 @@
   padding: 2px;
 }
 .mdc_yt_dl_pro_ttl {
-  color: #FF3992;
+  color: #900;
   font-size: 17px !important;
-  text-shadow: 1px 1px 0px #000;
 }
 .upgrade_today {
   letter-spacing: 1.7px;
@@ -54,6 +53,7 @@
   width: 100%;
 }
 .pro_feature {
+  /*float: left;*/
   overflow: hidden;
 }
 .pro_feature_ul > li {
@@ -96,4 +96,16 @@
 .row-actions span img {
   height: 14px;
   margin: 0 2px -2px 0;
+}
+small.mdc_help {
+  font-size: 12px;
+}
+.pro_only > a {
+  color: #f00;
+}
+.pro_logo img {
+  width: 100%;
+}
+.option_page_left ul a {
+    text-decoration: none;
 }
